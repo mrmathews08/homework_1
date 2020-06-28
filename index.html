@@ -1,0 +1,136 @@
+<!--I tried really hard to not ADD or CHANGE the appearance of the website in the browser
+With the HTML, I changed a lot of classes over to IDs to make it easier to indentify elements
+I also USED classes so that I could consolidate shared styles between elements resulting LESS
+CSS. I also added some semantic tags for semantics. My objective here was clean and concise.-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Added a fun new title-->
+    <title>HoriSEOn Homepage</title>
+</head>
+
+<body>
+    <!--made this an id to clean and organize-->
+    <div id="header">
+
+        <!--added a header tag -->
+    <header>
+        <!--added an id to the head for specificty, added an id to the span to clean CSS-->
+        <h1 id="head">Hori<span id="seo">seo</span>n</h1>
+
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    </div>
+
+    <!--changed the class to an ID to be more specific-->
+    <div id="hero"></div>
+
+    <!--changed the class to an ID to specify and changed name to main-content to specify-->
+    <div id="main-content">
+
+      <section>
+
+        <div class="search-engine-optimization">
+
+            <!--added an ID tag to the image for specificity and alt tag-->
+
+            <img id="searchEO" src="./assets/images/search-engine-optimization.jpg" alt="SEOmarketing"/>
+            <h2 class="twohead">Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </div>
+      </section>
+
+
+      <section>
+        <div id="online-reputation-management" class="online-reputation-management">
+            
+            <img id="orm" src="./assets/images/online-reputation-management.jpg" alt="onlineREPmanage"/>
+            <h2 class="twohead">Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </div>
+     </section>
+
+        
+     <section>  <!--cleaned up a bunch of mess here... changed class to id for specificty-->
+        <div id="social-media-marketing" class="social-media-marketing">
+            
+            <!--changed the image to an ID for specificty , added a clear alt tag-->
+            <img id="media-marketing" src="./assets/images/social-media-marketing.jpg" alt="media-marketing"/>
+            
+            <h2 class="twohead">Social Media Marketing</h2>
+            
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+         </div>
+        </section>
+    </div>
+    
+    
+    <div class="benefits">
+
+        <aside>
+       
+        <div class="manybenefit">
+            
+            <h3 class="benefitheader">Lead Generation</h3>
+            <img id="leadgen" src="./assets/images/lead-generation.png" alt="lead-generation" />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </div>
+        
+        <div id="manybenefit">
+            
+            <h3 class="benefitheader">Brand Awareness</h3>
+            <img id="brand" src="./assets/images/brand-awareness.png" alt="brand" />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </div>
+        
+        <div class="manybenefit">
+            
+            <h3 class="benefitheader">Cost Management</h3>
+            <img id="cost" src="./assets/images/cost-management.png" alt="cost-management"/>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </div>
+      </aside>
+    </div>
+    
+   <footer>
+    <div id="footer">
+        <h2 id="foot">Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </div>
+   </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+/* So at some point I got comnpletely in the zone and things started making sense and lost track
+of what changes I made. In essence, I tried my best consolidate the CSS so that classes could
+consolidate styles that were shared and made IDs to specify certain types of content to make
+the CSS itself more accessible. I also tried NOT to change the appearance of the website in the
+browser and instead focused on making everything clean, concise and free of all unneccesary code */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+#head {
+    display: inline-block;
+    font-size: 48px;
+}
+
+ 
+#seo { 
+    color: #d9dcd6;
+}
+
+#nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#nav {
+    list-style-type: none;
+}
+
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#main-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* consolidated these three classes */
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidated these classes*/
+
+.twohead {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#searchEO {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+#orm {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+#manybenefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+.benefitheader {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top:10px;
+}
+
+
+#leadgen {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+#brand {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#cost {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#media-marketing {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+#footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#foot {
+    font-size: 20px;
+}
