@@ -1,9 +1,3 @@
-/* So at some point I got comnpletely in the zone and things started making sense and lost track
-of what changes I made. In essence, I tried my best consolidate the CSS so that classes could
-consolidate styles that were shared and made IDs to specify certain types of content to make
-the CSS itself more accessible. I also tried NOT to change the appearance of the website in the
-browser and instead focused on making everything clean, concise and free of all unneccesary code */
-
 * {
     box-sizing: border-box;
     padding: 0;
